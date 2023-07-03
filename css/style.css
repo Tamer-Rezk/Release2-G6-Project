@@ -343,3 +343,10 @@ body {
   font-family: "Playfair+Display", times, serif;
 }
 /* Hotel Feature End */
+
+/* Slider Start */
+.slider-section {
+  z-index: 1;
+  position: relative;
+}
+/* Slider End */
