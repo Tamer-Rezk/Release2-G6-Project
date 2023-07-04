@@ -2,7 +2,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-
 }
 
 :root {
@@ -40,7 +39,6 @@ body {
     padding: 3em 0;
   }
 }
-
 
 /*  Botton Start  */
 .btn {
@@ -290,13 +288,12 @@ body {
 
 .contact-section .contact-info p .d-block {
   font-size: 14px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-family: "Mukta Mahee", arial, sans-serif;
   text-transform: uppercase;
-  color: var(--secondary-text)
+  color: var(--secondary-text);
 }
 /* Contact Form End */
-
 
 /* Hotel Feature Start */
 .feature-entry {
@@ -307,11 +304,12 @@ body {
 
 .post .media-custom {
   background: #fff;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
 }
 
-.post .media-custom:hover, .post .media-custom:focus {
+.post .media-custom:hover,
+.post .media-custom:focus {
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -335,7 +333,7 @@ body {
 .media-custom .meta-post {
   color: #a7adb3;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .heading {
@@ -343,6 +341,16 @@ body {
   font-family: "Playfair+Display", times, serif;
 }
 /* Hotel Feature End */
+
+/* services Start */
+.services__stars i {
+  color: var(--primary-color);
+}
+.services__update,
+.services__stars i {
+  font-size: 0.75rem;
+}
+/* services End */
 
 /* Slider Start */
 .slider-section {
